@@ -23,3 +23,20 @@ This project implements the K-Nearest Neighbors (KNN) and Naive Bayes algorithms
 - **Feature Engineering:** Experiment with different features or feature combinations to improve model performance.
 - **Hyperparameter Tuning:** Fine-tune the hyperparameters of the algorithms to achieve better results.
 - **Model Selection:** Explore other machine learning algorithms to compare their performance with KNN and Naive Bayes.
+
+
+
+# Penguin Species Classification and Clustering
+
+## Classification
+In this project, the goal is to create a classification model to determine the species of penguins based on the dataset's six features. The classification steps are as follows:
+- Transfer the labeled dataset to the coding environment.
+- Train the classification algorithms using the training data.
+- Test the trained model using the test data and generate labels for the test data.
+- Calculate the model's performance metrics, such as Accuracy, Precision, Recall, and F Score, by comparing the generated labels with the actual labels of the test data.
+
+## Clustering
+In the clustering stage, the k-means algorithm will be applied to the dataset, using the same six features but ignoring the labels. The k value for the k-means algorithm will be set to 3 (total number of classes) since the data is labeled. After clustering, the results will be compared with the classification results and the actual data labels.
+
+This project aims to improve understanding of classification and clustering algorithms and their applications in real-world datasets.
+
